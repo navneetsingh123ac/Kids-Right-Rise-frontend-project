@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--swiper css link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--custom css link-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--header section start-->
+    <header class="header">
+
+        <section class="flex">
+
+            
+            <a href="#home" class="logo"> <img src="image/logo.png" alt="">kids right rise</a>
+        
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#courses">Modules</a>
+                <a href="minigame.html">Mini Games</a>
+                <a href="#footer">contact</a>
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+
+        </section>
+
+    </header>
+
+    <!--header section end-->
+
+    <!--home section start-->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Know your rights<span> be a legal superhero</span></h3>
+            </div>
+            <div class="image">
+                <img src="image/kids image.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--home section end-->
+
+    <!--About section start-->
+    <section class="about" id="about">
+        <div class="row">
+
+            <div class="image">
+                <img src="image/image2.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Why choose us?</h3>
+                <p>Empower Kids: Where Learning about legal rights <br>
+                    become a fun adventure</p>
+            </div>
+
+        </div>
+    </section>
+    <!--About section end-->
+
+
+    <!--course section start-->
+    <section class="courses" id="courses">
+
+        <h1 class="heading">Our <span>Modules</span></h1>
+
+        <div class="swiper course-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="image/module1.png" alt="">
+                    <h3><a href="#">Module 1</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, veniam.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="image/module2.png" alt="">
+                    <h3><a href="#">Module 2</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, veniam.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="image/module3.png" alt="">
+                    <h3><a href="#">Module 3</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, veniam.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="image/module4.png" alt="">
+                    <h3><a href="#">Module 4</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, veniam.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="image/module5.png" alt="">
+                    <h3><a href="#">Module 5</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, veniam.</p>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+    <!--course section end-->
+
+
+    <!--feedback section start-->
+
+    <section class="feedback" id="feedback">
+        <h1 class="heading"><span>feedback </span>form</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/Customer feedback-amico.svg" alt="">
+            </div>
+
+            <form action="" method="post">
+                <span>your name</span>
+                <input type="text" required placeholder="enter your name" maxlength="30" name="name" class="box">
+                <span>your email</span>
+                <input type="email" required placeholder="enter your email" maxlength="30" name="email" class="box">
+                <span>your number</span>
+                <input type="number" required placeholder="enter your number" maxlength="9999999999" min="0"
+                    name="number" class="box" onkeypress="if(this.value.length==10) return false;">
+                <span>your feedback</span>
+                <textarea name="feedback" cols="30" rows="5" placeholder="your feedback..." id="textbox"></textarea>
+                <input type="submit" value="submit" class="btn" name="send">
+            </form>
+
+        </div>
+    </section>
+
+    <!--feedback section end-->
+
+    <!--footer section start-->
+
+    <foorter class="footer" id="footer">
+        <section>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube"></a>
+
+            </div>
+            <div class="helpline">
+                <a href="https://wcd.nic.in/" target="_blank">ministry of women and child development</a>
+                <a href="https://lawmin.gov.in/" target="_blank">ministry of law and justice</a>
+                <span>Helpline Number:- 1098</span>
+                <span>email address:- xyz@gmail.com</span>
+            </div>
+        </section>
+    </foorter>
+
+    <!--footer section end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--swiper js link-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!--coustom js file link-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
